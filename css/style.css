@@ -105,6 +105,7 @@ li {
   transition-property: color;
   transition-duration: 1s;
   padding: 24px 0 24px;
+  position: relative;
 }
 
 .nav-info:focus {
@@ -116,7 +117,11 @@ li {
   transition-duration: 1s;
 }
 
-.nav-info-first:first-child:active {
+.nav-info:active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
   color: #404bbf;
   border-bottom: 4px solid;
   width: 48px;
@@ -347,15 +352,17 @@ li {
 }
 
 .icon_team {
-  fill: none;
+  cursor: pointer;
+  fill: #4d5ae5;
   position: relative;
   top: 8px;
   left: 0px;
   margin-right: 10px;
   margin-left: 10px;
   transition-duration: 1s;
-  transition-property: color;
+  transition-property: fill;
 }
+
 .icon_team:hover {
   fill: #404bbf;
   transition-duration: 1s;
@@ -427,13 +434,15 @@ li {
 }
 
 .foot {
-  padding: 100px 0;
+  padding-top: 100px;
   width: 100%;
   height: auto;
   background-color: #2e2f42;
-  min-height: 100vh;
 }
-
+.cont__foot {
+  display: flex;
+  gap: 120px;
+}
 .footer-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -442,4 +451,30 @@ li {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
+}
+
+.social {
+}
+.social p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.icon_team__foot {
+  cursor: pointer;
+  fill: #4d5ae5;
+  position: relative;
+  top: 16px;
+  left: 0px;
+  margin-right: 8px;
+  margin-left: 8px;
+  transition-duration: 0.5s;
+  transition-property: fill;
+}
+
+.icon_team__foot:hover {
+  fill: #31d0aa;
 }
