@@ -260,7 +260,6 @@ li {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-
 .box-icon {
   display: flex;
   align-items: center;
@@ -272,16 +271,13 @@ li {
   background: #f4f4fd;
   margin-bottom: 8px;
 }
-.icon {
-  
+.icon { 
   fill: none;
 }
-
 .methods-inner {
   display: flex;
   justify-content: center;
 }
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -294,16 +290,13 @@ li {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .methods-item {
   width: calc((100% - 72px) / 4);
   margin-right: 24px;
 }
-
 .methods-item:last-child {
   margin-right: 0;
 }
-
 .methods-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -312,7 +305,6 @@ li {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-
 .methods-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -321,11 +313,9 @@ li {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
 .section_team {
   background-color: #f4f4fd;
 }
-
 .team-block {
   width: 100%;
   display: flex;
@@ -340,11 +330,9 @@ li {
   background-color: #fff;
   text-align: center;
 }
-
 .team-inner:last-child {
   margin-right: 0;
 }
-
 .team-photo {
   width: 264px;
   height: 260px;
@@ -362,7 +350,6 @@ li {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-
 .team-prof {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -380,13 +367,11 @@ li {
   justify-content: center;
   gap: 24px;
 }
-
 .soc__item__team {
   width: 40px;
   height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .social__web__team {
   width: 100%;
   height: 100%;
@@ -397,38 +382,29 @@ li {
   justify-content: center;
   position: relative;
 }
-
 .social__web__team:hover {
   background-color: #404bbf;
   fill: #404bbf;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .social__web__team:active {
   background-color: #404bbf;
 }
-
 .social__icon__team {
   fill: #f4f4fd;
 
 }
-
 /*Section Portfolio*/
 
 .section_portfolio {
   width: 100%;
 }
-
 .portfolio-block {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-}
-
-.portfolio-block:hover {
-   
 }
 .portfolio-inner {
   position: relative;
@@ -449,12 +425,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   transition: transform 0.4s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
-
 .portfolio-inner:hover .portfolio__hover {
   height: 300px;  
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
 .portfolio-text {
   background: #4d5ae5;
   position: absolute;
@@ -471,11 +445,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .portfolio-inner:last-child {
   margin-right: 0;
 }
-
 .portfolio-box {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
@@ -544,15 +516,11 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   background-color: #31d0aa;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .soc__item {
   width: 40px;
   height: 40px;
 }
-
 .icon_team__foot {
   fill:  none;
   
 }
-
-
