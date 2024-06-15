@@ -98,8 +98,9 @@ li {
 
 .nav-link {
   margin-right: 40px;
+  color: #404bbf
 }
-.nav-link:first-child {
+.nav-link:first-child a{
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -152,7 +153,7 @@ li {
   gap: 40px;
 }
 
-.contact__item {
+.contact__item:first-child {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -190,7 +191,7 @@ li {
   padding-bottom: 120px;
 }
 .section_intro {
-  height: auto;
+  max-width: 1140px;
   background-color: #2e2f42;
   background-image: linear-gradient(
       to bottom,
@@ -200,7 +201,6 @@ li {
     url(../images/people-office-1.jpg);
   
   padding: 188px 0 188px;
-  
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -405,12 +405,16 @@ li {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.social__web__team:active {
+  background-color: #404bbf;
+}
+
 .social__icon__team {
-  fill: none;
+  fill: #f4f4fd;
 
 }
 
-
+/*Section Portfolio*/
 
 .section_portfolio {
   width: 100%;
@@ -422,36 +426,50 @@ li {
   row-gap: 48px;
   column-gap: 24px;
 }
+
+.portfolio-block:hover {
+   
+}
 .portfolio-inner {
   position: relative;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.portfolio-inner:hover {
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolio-inner:hover .portfolio__hover p{
+  transform: translateY(0%);
+}
 .portfolio__hover {
-  position: absolute;
+  position: relative;
   overflow: hidden;
   width: 100%;    
   background: #4d5ae5;
-  transform: translateY(100%);
+  transform: translateY(0%);
   transition: transform 0.4s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .portfolio-inner:hover .portfolio__hover {
-  height: 300px;
-  transform: translateY(0);
+  height: 300px;  
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-text {
+  background: #4d5ae5;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
   position: absolute;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding-top: 40px;
-  padding-left: 32px;
-  padding-right: 32px;
-  transform: translateY(0%);
+  padding: 40px 32px;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-inner:last-child {
