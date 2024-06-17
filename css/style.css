@@ -25,6 +25,7 @@ p {
 img {
   display: block;
 }
+
 ul,
 ol {
   margin: 0;
@@ -150,7 +151,7 @@ li {
   gap: 40px;
 }
 
-.contact__item:first-child {
+.contact__item {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -177,9 +178,6 @@ li {
 }
 
 .main-page {
-  width: 100%;
-  margin: 0 auto;
-  flex-grow: 1;
 }
 
 .section {
@@ -187,7 +185,7 @@ li {
   padding-bottom: 120px;
 }
 .section_intro {
-  max-width: 1140px;
+  max-width: 1440px;
   background-color: #2e2f42;
   background-image: linear-gradient(
       to bottom,
@@ -365,9 +363,9 @@ li {
 .soc__item__team {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social__web__team {
+  fill: none;
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -376,6 +374,7 @@ li {
   align-items: center;
   justify-content: center;
   position: relative;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social__web__team:hover {
   background-color: #404bbf;
@@ -383,7 +382,7 @@ li {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social__web__team:active {
+.social__web__team:focus {
   background-color: #404bbf;
 }
 .social__icon__team {
@@ -455,7 +454,7 @@ li {
   text-align: start;
   border-bottom: 8px;
 }
-
+/* Footer */
 .foot {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -463,7 +462,6 @@ li {
 }
 .cont__foot {
   display: flex;
-
   align-items: baseline;
 }
 
@@ -505,7 +503,7 @@ li {
   background-color: #31d0aa;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.soc__web:active {
+.soc__web:focus {
   background-color: #31d0aa;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -514,5 +512,5 @@ li {
   height: 40px;
 }
 .icon_team__foot {
-  fill: none;
+  fill: #f4f4fd;
 }
