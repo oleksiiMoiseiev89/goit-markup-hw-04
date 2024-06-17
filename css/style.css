@@ -151,10 +151,6 @@ li {
   gap: 40px;
 }
 
-.contact__item {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .contacts {
   display: block;
   font-weight: 400;
@@ -165,6 +161,7 @@ li {
   transition-duration: 1s;
   transition-property: color;
   padding: 24px 0 24px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts:hover {
@@ -510,6 +507,9 @@ li {
 .soc__item {
   width: 40px;
   height: 40px;
+}
+.soc__web {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon_team__foot {
   fill: #f4f4fd;
