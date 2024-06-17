@@ -25,7 +25,6 @@ p {
 img {
   display: block;
 }
-
 ul,
 ol {
   margin: 0;
@@ -48,16 +47,15 @@ li {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-
 
 .header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #fff;
-  
 }
 
 .logo {
@@ -89,7 +87,6 @@ li {
 .nav-title {
   display: flex;
   align-items: center;
-  
 }
 
 .nav-inner {
@@ -98,13 +95,13 @@ li {
 
 .nav-link {
   margin-right: 40px;
-  color: #404bbf
+  color: #404bbf;
 }
-.nav-link:first-child a{
+.nav-link:first-child a {
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-link:first-child ::after{
+.nav-link:first-child ::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -113,7 +110,7 @@ li {
   color: #404bbf;
   height: 4px;
   background-color: #404bbf;
-  
+
   border-radius: 2px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -157,7 +154,6 @@ li {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .contacts {
   display: block;
   font-weight: 400;
@@ -199,7 +195,7 @@ li {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office-1.jpg);
-  
+
   padding: 188px 0 188px;
   background-repeat: no-repeat;
   background-position: center;
@@ -241,7 +237,6 @@ li {
 }
 
 .btn:hover {
-  
   background-color: #404bbf;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -271,7 +266,7 @@ li {
   background: #f4f4fd;
   margin-bottom: 8px;
 }
-.icon { 
+.icon {
   fill: none;
 }
 .methods-inner {
@@ -362,7 +357,7 @@ li {
 }
 
 /*****Social team****/
-.social__team{
+.social__team {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -393,7 +388,6 @@ li {
 }
 .social__icon__team {
   fill: #f4f4fd;
-
 }
 /*Section Portfolio*/
 
@@ -411,23 +405,25 @@ li {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-inner:hover {
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.portfolio-inner:hover .portfolio__hover p{
+.portfolio-inner:hover .portfolio__hover p {
   transform: translateY(0%);
 }
 .portfolio__hover {
   position: relative;
   overflow: hidden;
-  width: 100%;    
+  width: 100%;
   background: #4d5ae5;
   transform: translateY(0%);
   transition: transform 0.4s;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-inner:hover .portfolio__hover {
-  height: 300px;  
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  height: 300px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-text {
   background: #4d5ae5;
@@ -453,7 +449,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
-  
 }
 .portfolio-name,
 .portfolio-app {
@@ -492,12 +487,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-
 }
 .social__foot {
   display: flex;
   gap: 16px;
-
 }
 .soc__web {
   display: flex;
@@ -521,6 +514,5 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   height: 40px;
 }
 .icon_team__foot {
-  fill:  none;
-  
+  fill: none;
 }
